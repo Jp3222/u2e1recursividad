@@ -54,7 +54,7 @@ public class U2E1Recursividad {
                 case 6:
                     System.out.println("Ingresa una palabra");
                     palabra = V.next();
-                    Metodo.PalindromoR(palabra, opc, opc);
+                    Metodo.PalindromoR(palabra, 0, palabra.length()-1);
                     System.out.println("");
                     break;
                 case 7:
